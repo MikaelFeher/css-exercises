@@ -4,3 +4,21 @@
 .para {
 	font-size: 30px;
 }
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+a[href~="google"] {
+	color: skyblue;
+}
+a[href~="github"] {
+	color: black;
+}
+a[href~="sydsvenskan"] {
+	color: red;
+}
+a[href="page1.html"] {
+	color: goldenrod;
+}
